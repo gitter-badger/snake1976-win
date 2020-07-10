@@ -6,9 +6,7 @@ Snake 1976 is a console game that follows the logic of the classic snake.The gam
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-Things you need to install the game:
+### Requirements
 
 ```
 Python (3.5, 3.6, 3.7, 3.8)
