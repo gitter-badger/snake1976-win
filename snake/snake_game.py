@@ -34,7 +34,7 @@ while True:
 		player_score.show_score()
 
 	elif menu_selection == 5:
-		webbrowser.open("https://github.com/GonnaFlyMethod/snake1976_win")
+		webbrowser.open("https://github.com/GonnaFlyMethod/snake1976-win")
 		os.system('cls')
 
 	elif menu_selection == 6:
@@ -42,9 +42,3 @@ while True:
 		
 	else:
 		exit()
-
-
-
-
-
-
