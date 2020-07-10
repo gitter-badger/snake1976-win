@@ -34,4 +34,4 @@ See also the list of [contributors](https://github.com/GonnaFlyMethod/snake1976-
 
 ## License
 
-This project is licensed under the MIT License - see the [https://github.com/GonnaFlyMethod/snake1976-win/blob/master/LICENSE](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md]([https://github.com/GonnaFlyMethod/snake1976-win/blob/master/LICENSE) file for details
