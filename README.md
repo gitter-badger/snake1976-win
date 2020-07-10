@@ -1,4 +1,4 @@
-# Snake 1976
+# Snake 1976 Windows version
 
 Snake 1976 is a console game that follows the logic of the classic snake.The game also contains some new game modes and features.
 
