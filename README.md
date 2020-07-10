@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Things you need to install the game:
 
 ```
-pip
+Python (3.5, 3.6, 3.7, 3.8)
 ```
 
 ### Installing
