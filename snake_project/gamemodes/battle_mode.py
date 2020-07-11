@@ -25,6 +25,7 @@ class BattleModeGameManager:
 		self.RIGHT_2 = 77
 		self.keys_player_2 = [72, 80, 75, 77]
 
+		self.settings_storage = {}
 		self.player_score = player_score_instance
 		self.menu = game_menu_instance
 		
@@ -279,10 +280,10 @@ class BattleModeGameManager:
 		
 		# Snake1 and walls logic 
 		if self.snake_and_walls == 'can crawl through the walls':
-			if self.head_x_coord_1 > 20 - 1:
+			if self.head_x_coord_1 > 19:
 				self.head_x_coord_1 = 1
 			elif self.head_x_coord_1 == 0:
-				self.head_x_coord_1 = 20 - 1
+				self.head_x_coord_1 = 19
 		
 			if self.head_y_coord_1 > self.height:
 				self.head_y_coord_1 = 0
@@ -290,9 +291,10 @@ class BattleModeGameManager:
 				self.head_y_coord_1 = self.height
 
 		else:
-			if (self.head_x_coord_1 > 20 - 1 or 
+			if (self.head_x_coord_1 > 19 or 
 				self.head_x_coord_1 == 0):
 				self.game_over_1 = True 
+				
 			elif (self.head_y_coord_1 > self.height or 
 				self.head_y_coord_1 < 0):
 				self.game_over_1 = True 
@@ -307,8 +309,8 @@ class BattleModeGameManager:
 		if (self.head_x_coord_1 == self.x_coord_of_fruit_1 and
 			self.head_y_coord_1 == self.y_coord_of_fruit_1):
 
-			self.x_coord_of_fruit_1 = random.randint(1, 20 - 1)
-			self.y_coord_of_fruit_1 = random.randint(1, 20 - 1)
+			self.x_coord_of_fruit_1 = random.randint(1, 19)
+			self.y_coord_of_fruit_1 = random.randint(1, 19)
 
 			self.x_coord_of_fruit_2 = self.x_coord_of_fruit_1 + 40
 			self.y_coord_of_fruit_2 = self.y_coord_of_fruit_1
@@ -421,7 +423,7 @@ class BattleModeGameManager:
 		self.head_x_coord_1 = 10
 		self.head_y_coord_1 = 10
 		self.direction_1 = 'UP'
-		self.x_coord_of_fruit_1 = random.randint(1, 20 - 1)
+		self.x_coord_of_fruit_1 = random.randint(1, 19)
 		self.y_coord_of_fruit_1 = random.randint(1, self.height - 1)
 		self.num_of_snake_segments_1 = self.settings_storage['length']
 		self.snake_segments_coord_x_1 = [] 

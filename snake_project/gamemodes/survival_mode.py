@@ -26,6 +26,7 @@ class SurvivalModeGameManager:
 
 		self.keys_player_2 = [72, 80, 75, 77]
 
+		self.settings_storage = {}
 		self.player_score = player_score_instance
 		self.menu = game_menu_instance
 		

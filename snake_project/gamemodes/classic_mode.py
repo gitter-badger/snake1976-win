@@ -19,6 +19,7 @@ class ClassicModeGameManager:
 		self.LEFT = [97, 65]  # a A
 		self.RIGHT = [100, 68]  # d D
 
+		self.settings_storage = {}
 		self.player_score = player_score_instance
 		self.menu = game_menu_instance
 		
@@ -219,11 +220,9 @@ class ClassicModeGameManager:
 			elif self.head_y_coord < 0:
 				self.head_y_coord = self.height
 		else:
-			if (self.head_x_coord > self.width - 1 or 
-				self.head_x_coord == 0):
+			if self.head_x_coord > self.width - 1 or self.head_x_coord == 0:
 				self.game_over = True 
-			elif (self.head_y_coord > self.height or 
-				self.head_y_coord < 0):
+			elif self.head_y_coord > self.height or self.head_y_coord < 0:
 				self.game_over = True
 
 		# Cases for self.game_over = True
