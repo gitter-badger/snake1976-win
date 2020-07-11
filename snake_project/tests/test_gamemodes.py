@@ -1,5 +1,4 @@
 import pytest
-from pynput.keyboard import Key, Controller, KeyCode
 from extra.game_environment.menu_files.menu import Menu 
 from extra.game_environment.score_files.score import Score 
 from gamemodes.classic_mode import ClassicModeGameManager
