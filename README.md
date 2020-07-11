@@ -1,5 +1,5 @@
 # Snake 1976 Windows version
-[![Build Status](https://travis-ci.com/GonnaFlyMethod/snake1976-win.svg?branch=master)](https://travis-ci.org/github/GonnaFlyMethod/snake1976-win)
+[![Build Status](https://travis-ci.com/GonnaFlyMethod/snake1976-win.svg?branch=master)](https://travis-ci.org/github/GonnaFlyMethod/snake1976-win) [![Join the chat at https://gitter.im/snake1976-win/community](https://badges.gitter.im/snake1976-win/community.svg)](https://gitter.im/snake1976-win/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Getting Started
 
