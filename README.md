@@ -1,6 +1,5 @@
 # Snake 1976 Windows version
 [![Build Status](https://travis-ci.com/GonnaFlyMethod/snake1976-win.svg?branch=master)](https://travis-ci.org/github/GonnaFlyMethod/snake1976-win)
-Snake 1976 is a console game that follows the logic of the classic snake.The game also contains some new game modes and features.
 
 ## Getting Started
 
