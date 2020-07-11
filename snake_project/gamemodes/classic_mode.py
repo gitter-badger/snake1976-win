@@ -3,8 +3,10 @@ import sys
 import threading
 import random
 import time
-from msvcrt import *
+import platform
 from extra.tools.asker import complex_ask
+if platform.system() == 'Windows': 
+	from msvcrt import *
 
 
 class ClassicModeGameManager:
